@@ -1,0 +1,236 @@
+/* ==========================================
+        GOOGLE FONT
+========================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+html,
+body,
+[class*="css"]{
+
+font-family:'Poppins',sans-serif;
+
+}
+
+
+/* ==========================================
+        APP BACKGROUND
+========================================== */
+
+.stApp{
+
+background:
+
+linear-gradient(
+
+135deg,
+
+#0F172A,
+
+#1E293B,
+
+#312E81
+
+);
+
+color:white;
+
+}
+
+
+/* ==========================================
+        HERO
+========================================== */
+
+.hero{
+
+padding:50px;
+
+border-radius:25px;
+
+background:
+
+rgba(255,255,255,.08);
+
+backdrop-filter:blur(20px);
+
+box-shadow:
+
+0 15px 35px rgba(0,0,0,.35);
+
+margin-bottom:30px;
+
+}
+
+
+.hero h1{
+
+font-size:60px;
+
+font-weight:700;
+
+color:white;
+
+}
+
+.hero h3{
+
+color:#CBD5E1;
+
+}
+
+.hero p{
+
+font-size:20px;
+
+}
+
+
+/* ==========================================
+        CARD
+========================================== */
+
+.card{
+
+padding:25px;
+
+border-radius:20px;
+
+background:
+
+rgba(255,255,255,.08);
+
+backdrop-filter:blur(20px);
+
+transition:.4s;
+
+box-shadow:
+
+0 10px 35px rgba(0,0,0,.3);
+
+margin-bottom:20px;
+
+}
+
+
+.card:hover{
+
+transform:
+
+translateY(-8px);
+
+box-shadow:
+
+0 25px 45px rgba(0,0,0,.45);
+
+}
+
+
+/* ==========================================
+        BUTTON
+========================================== */
+
+.stButton>button{
+
+width:100%;
+
+height:55px;
+
+border:none;
+
+border-radius:12px;
+
+background:#4F46E5;
+
+color:white;
+
+font-size:18px;
+
+font-weight:bold;
+
+transition:.3s;
+
+}
+
+.stButton>button:hover{
+
+background:#6366F1;
+
+transform:scale(1.02);
+
+}
+
+
+/* ==========================================
+        METRIC
+========================================== */
+
+[data-testid="stMetric"]{
+
+background:
+
+rgba(255,255,255,.08);
+
+padding:20px;
+
+border-radius:15px;
+
+}
+
+
+/* ==========================================
+        SIDEBAR
+========================================== */
+
+section[data-testid="stSidebar"]{
+
+background:#111827;
+
+}
+
+section[data-testid="stSidebar"] *{
+
+color:white;
+
+}
+
+
+/* ==========================================
+        TABLE
+========================================== */
+
+[data-testid="stDataFrame"]{
+
+border-radius:15px;
+
+}
+
+
+/* ==========================================
+        SCROLLBAR
+========================================== */
+
+::-webkit-scrollbar{
+
+width:8px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+background:#4F46E5;
+
+border-radius:20px;
+
+}
+
+
+/* ==========================================
+        IMAGE
+========================================== */
+
+img{
+
+border-radius:15px;
+
+}
